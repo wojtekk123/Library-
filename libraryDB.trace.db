@@ -1,0 +1,12 @@
+2019-02-11 01:10:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabela "TABLE" nie istnieje
+Table "TABLE" not found; SQL statement:
+DROP TABLE `TABLE`  [42102-193]
+2019-02-11 01:10:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabela "BOOKS" nie istnieje
+Table "BOOKS" not found; SQL statement:
+DROP TABLE `BOOKS`  [42102-193]
+2019-02-11 01:10:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabela "CATEGORIES" nie istnieje
+Table "CATEGORIES" not found; SQL statement:
+DROP TABLE `CATEGORIES`  [42102-193]
