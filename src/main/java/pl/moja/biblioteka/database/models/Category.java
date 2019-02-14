@@ -19,7 +19,7 @@ public class  Category implements BaseModel {
     @DatabaseField (generatedId = true)
     private int id;
 
-    @DatabaseField(columnName = "Name ", canBeNull = false)
+    @DatabaseField(columnName = "Name ", canBeNull = false, unique = true)
     private String name ;
 
 

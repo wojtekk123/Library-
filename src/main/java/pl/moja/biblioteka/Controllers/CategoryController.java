@@ -8,6 +8,7 @@ import javafx.scene.control.TextField;
 import pl.moja.biblioteka.modelFX.CategoryFx;
 import pl.moja.biblioteka.modelFX.CategoryModel;
 import pl.moja.biblioteka.uties.DialogUtils;
+import pl.moja.biblioteka.uties.exception.AplicationException;
 
 /**
  * Created by wojtek on 11.02.2019.
@@ -35,7 +36,11 @@ public class CategoryController {
     @FXML public void initialize () {
 
         this.categoryModel = new CategoryModel();
-        this.categoryModel.init();
+        try {
+            this.categoryModel.init();
+        } catch (AplicationException e) {
+            DialogUtils.errorDialog(e.getMessage());
+        }
         this.comboBox.setItems(this.categoryModel.getCategoryList());
         iniBindings ();
 
@@ -51,14 +56,24 @@ public class CategoryController {
 
 
     public void AddCategoryAction() {
-      categoryModel.saveCategoryInDatabase(categoryTextField.getText());
-      categoryTextField.clear();
+        try {
+            categoryModel.saveCategoryInDatabase(categoryTextField.getText());
+        } catch (AplicationException e) {
+
+            DialogUtils.errorDialog(e.getMessage());
+
+        }
+        categoryTextField.clear();
 
     }
 
     public void deleteAction() {
 
-    this.categoryModel.deleteCategory();
+        try {
+            this.categoryModel.deleteCategory();
+        } catch (AplicationException e) {
+            DialogUtils.errorDialog(e.getMessage());
+        }
 
     }
 
@@ -74,7 +89,11 @@ public class CategoryController {
         String newCatogreyName = DialogUtils.editDialog(this.categoryModel.getCategory().getName());
         if ( newCatogreyName != null){
             this.categoryModel.getCategory().setName(newCatogreyName);
-            this.categoryModel.updateCategoryInDataBase();
+            try {
+                this.categoryModel.updateCategoryInDataBase();
+            } catch (AplicationException e) {
+                DialogUtils.errorDialog(e.getMessage());
+            }
         }
 
 

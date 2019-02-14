@@ -28,7 +28,7 @@ public class DBMenager {
 
     public static void initDatabase () {
         createConnectionSource();
-        //dropTable();
+        dropTable();
         creatTabe () ;
         closeConnectionSource () ;
     }

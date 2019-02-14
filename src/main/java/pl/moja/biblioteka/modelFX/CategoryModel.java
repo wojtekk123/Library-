@@ -8,6 +8,7 @@ import org.sqlite.core.DB;
 import pl.moja.biblioteka.database.dao.CategoryDao;
 import pl.moja.biblioteka.database.dbUtis.DBMenager;
 import pl.moja.biblioteka.database.models.Category;
+import pl.moja.biblioteka.uties.exception.AplicationException;
 
 import java.util.List;
 import java.util.Observable;
@@ -25,7 +26,7 @@ private ObjectProperty <CategoryFx> category = new SimpleObjectProperty<>();
 
 
 
-    public void updateCategoryInDataBase () {
+    public void updateCategoryInDataBase () throws AplicationException{
         CategoryDao categoryDao = new CategoryDao( (DBMenager.getConnectionSource()));
         Category tempCategory = categoryDao.findById(Category.class, getCategory().getId());
         tempCategory.setName(getCategory().getName());
@@ -35,7 +36,7 @@ private ObjectProperty <CategoryFx> category = new SimpleObjectProperty<>();
     }
 
 
-public void init  () {
+public void init  () throws AplicationException {
 
     CategoryDao categoryDao = new CategoryDao( (DBMenager.getConnectionSource()));
     List<Category> categories = categoryDao.queryForAll(Category.class);
@@ -52,7 +53,7 @@ public void init  () {
 
 }
 
-    public void deleteCategory () {
+    public void deleteCategory () throws AplicationException {
 
         CategoryDao categoryDao = new CategoryDao( (DBMenager.getConnectionSource()));
         categoryDao.deleteById(Category.class,category.getValue().getId());
@@ -62,7 +63,7 @@ public void init  () {
     }
 
 // model obsluguje zapis do bazy danych, stworzenie kategori i zapisanie jej
-    public  void saveCategoryInDatabase (String name) {
+    public  void saveCategoryInDatabase (String name) throws AplicationException{
 
         CategoryDao categoryDao = new CategoryDao(DBMenager.getConnectionSource());
         Category category = new Category() ;
