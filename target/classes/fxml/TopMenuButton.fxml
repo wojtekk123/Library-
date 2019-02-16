@@ -8,7 +8,7 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.HBox?>
 
-<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" spacing="10.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.moja.biblioteka.Controllers.TopMenuButtonController">
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="973.0" spacing="10.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.moja.biblioteka.Controllers.TopMenuButtonController">
    <children>
       <ToggleButton alignment="CENTER_LEFT" mnemonicParsing="false" onAction="#openLibrey" prefHeight="80.0" prefWidth="150.0" text="%library">
          <graphic>
@@ -48,6 +48,15 @@
          </graphic>
       </Button>
       <Button graphicTextGap="5.0" mnemonicParsing="false" onAction="#addCategory" prefHeight="80.0" prefWidth="150.0" text="%add.categorry">
+         <graphic>
+            <ImageView fitHeight="53.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/book_icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button graphicTextGap="5.0" mnemonicParsing="false" onAction="#AddAthorAction" prefHeight="80.0" prefWidth="150.0" text="%add.author">
          <graphic>
             <ImageView fitHeight="53.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
                <image>

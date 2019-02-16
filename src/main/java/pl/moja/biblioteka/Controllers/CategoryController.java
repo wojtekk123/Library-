@@ -5,6 +5,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextField;
+import javafx.scene.control.TreeView;
 import pl.moja.biblioteka.modelFX.CategoryFx;
 import pl.moja.biblioteka.modelFX.CategoryModel;
 import pl.moja.biblioteka.uties.DialogUtils;
@@ -30,10 +31,13 @@ public class CategoryController {
     @FXML
     private Button ControllerEdditButton;
 
-
+    @FXML
+    TreeView<String> treeViewControler;
 
     private CategoryModel categoryModel;
-    @FXML public void initialize () {
+
+    @FXML
+    public void initialize () {
 
         this.categoryModel = new CategoryModel();
         try {
@@ -42,6 +46,7 @@ public class CategoryController {
             DialogUtils.errorDialog(e.getMessage());
         }
         this.comboBox.setItems(this.categoryModel.getCategoryList());
+        this.treeViewControler.setRoot(this.categoryModel.getRoot());
         iniBindings ();
 
     }
@@ -53,8 +58,7 @@ public class CategoryController {
         this.ControllerEdditButton.disableProperty().bind(this.categoryModel.categoryProperty().isNull());
 
     }
-
-
+    @FXML
     public void AddCategoryAction() {
         try {
             categoryModel.saveCategoryInDatabase(categoryTextField.getText());
@@ -66,7 +70,7 @@ public class CategoryController {
         categoryTextField.clear();
 
     }
-
+    @FXML
     public void deleteAction() {
 
         try {
@@ -76,8 +80,7 @@ public class CategoryController {
         }
 
     }
-
-
+    @FXML
     public void OnActionComboBox() {
 
         this.categoryModel.setCategory(this.comboBox.getSelectionModel().getSelectedItem());
@@ -85,7 +88,6 @@ public class CategoryController {
     }
 
     public void EditControlerAction() {
-
         String newCatogreyName = DialogUtils.editDialog(this.categoryModel.getCategory().getName());
         if ( newCatogreyName != null){
             this.categoryModel.getCategory().setName(newCatogreyName);
@@ -98,4 +100,7 @@ public class CategoryController {
 
 
     }
+
+
+
 }

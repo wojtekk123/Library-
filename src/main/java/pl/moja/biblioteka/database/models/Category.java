@@ -4,6 +4,7 @@ import com.j256.ormlite.dao.ForeignCollection;
 import com.j256.ormlite.field.DatabaseField;
 import com.j256.ormlite.field.ForeignCollectionField;
 import com.j256.ormlite.table.DatabaseTable;
+import javafx.fxml.FXML;
 
 /**
  * Created by wojtek on 04.02.2019.
@@ -22,6 +23,8 @@ public class  Category implements BaseModel {
     @DatabaseField(columnName = "Name ", canBeNull = false, unique = true)
     private String name ;
 
+@ForeignCollectionField (columnName = "Book_ID")
+    private ForeignCollection<Book> books;
 
 
     public int getId() {
@@ -40,5 +43,11 @@ public class  Category implements BaseModel {
         this.name = name;
     }
 
+    public ForeignCollection<Book> getBooks() {
+        return books;
+    }
 
+    public void setBooks(ForeignCollection<Book> books) {
+        this.books = books;
+    }
 }

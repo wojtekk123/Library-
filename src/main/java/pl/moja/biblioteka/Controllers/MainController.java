@@ -27,7 +27,8 @@ public class MainController implements Initializable {
     @FXML
     public BorderPane borderPane;
 
-    @FXML public TopMenuButtonController topMenuButtonController;
+    @FXML
+    public TopMenuButtonController topMenuButtonController;
 
     public void setCenters ( String Patch) {
 
@@ -36,23 +37,15 @@ public class MainController implements Initializable {
 
 
     public void initialize(URL location, ResourceBundle resources) {
-
             topMenuButtonController.setMainController(this);
-
     }
 
     public void closeApplcation() {
        Optional<ButtonType> result = DialogUtils.confirmationDialog();
        if (result.get()==ButtonType.OK){
-
            Platform.exit();
            System.exit(0);
-
-
        }
-
-
-
     }
 
     public void setCaspian() {
@@ -67,9 +60,7 @@ public class MainController implements Initializable {
     public void setAlwasyOnTop(ActionEvent event) {
 
         Stage stage = (Stage) borderPane.getScene().getWindow();
-
        boolean  value =  ((CheckMenuItem) event.getSource()).selectedProperty().get();
-
         stage.setAlwaysOnTop(true);
 
     }

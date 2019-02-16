@@ -4,10 +4,12 @@ import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.scene.control.TreeItem;
 import org.sqlite.core.DB;
 import pl.moja.biblioteka.database.dao.CategoryDao;
 import pl.moja.biblioteka.database.dbUtis.DBMenager;
 import pl.moja.biblioteka.database.models.Category;
+import pl.moja.biblioteka.uties.convertes.ConverterCategory;
 import pl.moja.biblioteka.uties.exception.AplicationException;
 
 import java.util.List;
@@ -22,6 +24,7 @@ public class CategoryModel {
 
 private ObservableList <CategoryFx> categoryList = FXCollections.observableArrayList();
 private ObjectProperty <CategoryFx> category = new SimpleObjectProperty<>();
+private TreeItem<String> root = new TreeItem<>();
 
 
 
@@ -36,22 +39,39 @@ private ObjectProperty <CategoryFx> category = new SimpleObjectProperty<>();
     }
 
 
-public void init  () throws AplicationException {
+    public void init  () throws AplicationException {
 
     CategoryDao categoryDao = new CategoryDao( (DBMenager.getConnectionSource()));
     List<Category> categories = categoryDao.queryForAll(Category.class);
-    this.categoryList.clear();
-    categories.forEach(c-> {
+    initCategoryList(categories);
+    initRoot (categories);
 
-        CategoryFx  categoryFx = new CategoryFx();
-        categoryFx.setId(c.getId());
-        categoryFx.setName(c.getName());
-        this.categoryList.add(categoryFx);
-
-    });
     DBMenager.closeConnectionSource();
 
-}
+    }
+
+    private void initRoot(List<Category> categories)  {
+        this.root.getChildren().clear();
+    categories.forEach(c->{
+        TreeItem<String>categoryItem = new TreeItem<>(c.getName());
+        c.getBooks().forEach(b->{
+            categoryItem.getChildren().add(new TreeItem<>(b.getTitle()));
+        });
+        root.getChildren().add(categoryItem);
+            });
+
+
+    }
+
+    private void initCategoryList(List<Category> categories) {
+        this.categoryList.clear();
+        categories.forEach(c-> {
+
+            CategoryFx categoryFx = ConverterCategory.convertToCategoty(c);
+            this.categoryList.add(categoryFx);
+
+        });
+    }
 
     public void deleteCategory () throws AplicationException {
 
@@ -92,6 +112,14 @@ public void init  () throws AplicationException {
 
     public void setCategory(CategoryFx category) {
         this.category.set(category);
+    }
+
+    public TreeItem<String> getRoot() {
+        return root;
+    }
+
+    public void setRoot(TreeItem<String> root) {
+        this.root = root;
     }
 }
 

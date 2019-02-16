@@ -12,7 +12,7 @@ import com.j256.ormlite.table.DatabaseTable;
 @DatabaseTable (tableName = "TABLE")
 public class Author implements BaseModel {
 
-    private Author () {
+    public Author () {
 
     }
 
@@ -20,7 +20,10 @@ public class Author implements BaseModel {
     private int id;
 
     @DatabaseField (columnName = "Colum_Name", canBeNull = false)
-    private String nameAndSuername;
+    private String name;
+
+    @DatabaseField (columnName = "Colum_Surname", canBeNull = false)
+    private String surname;
 
     @ForeignCollectionField (eager = true)
     private ForeignCollection<Book> books;
@@ -33,12 +36,20 @@ public class Author implements BaseModel {
         this.id = id;
     }
 
-    public String getNameAndSuername() {
-        return nameAndSuername;
+    public String getName() {
+        return name;
     }
 
-    public void setNameAndSuername(String nameAndSuername) {
-        this.nameAndSuername = nameAndSuername;
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
     }
 
     public ForeignCollection<Book> getBooks() {

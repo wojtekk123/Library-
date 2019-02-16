@@ -7,6 +7,7 @@ import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 import pl.moja.biblioteka.database.dbUtis.DBMenager;
+import pl.moja.biblioteka.uties.FileDatabase;
 import pl.moja.biblioteka.uties.fxmlUties;
 
 import java.util.Locale;
@@ -33,6 +34,7 @@ public class Main extends Application {
         primaryStage.show();
 
         DBMenager.initDatabase();
+        FileDatabase.FillDataBase();
 
     }
 }

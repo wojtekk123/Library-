@@ -31,8 +31,8 @@ public class Book implements BaseModel {
     @DatabaseField (columnName =  "Relase_Data")
     private Date realseData;
 
-    @DatabaseField (columnName =  "ISBN",width = 1)
-    private long isbn;
+    @DatabaseField (columnName =  "ISBN", unique = true, width = 1)
+    private String isbn;
 
     @DatabaseField (columnName =  "Rating",width = 1)
     private int ranking;
@@ -80,12 +80,12 @@ public class Book implements BaseModel {
         this.realseData = realseData;
     }
 
-    public long getISBN() {
+    public String getIsbn() {
         return isbn;
     }
 
-    public void setISBN(long ISBN) {
-        this.isbn = ISBN;
+    public void setIsbn(String isbn) {
+        this.isbn = isbn;
     }
 
     public int getRanking() {

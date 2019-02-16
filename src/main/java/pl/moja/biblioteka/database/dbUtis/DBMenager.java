@@ -20,7 +20,7 @@ public class DBMenager {
 
 
     private static final Logger LOGGER = LoggerFactory.getLogger(DBMenager.class);
-    private static final  String JDBC_DRIVER_HD = "jdbc:h2:./libraryDB";
+    private static final  String JDBC_DRIVER_HD = "jdbc:sqlite:bazaKsiazek.db";
     private static final String User = " admin";
     private static final String password = " admin";
 
@@ -35,7 +35,7 @@ public class DBMenager {
 
     private static void createConnectionSource (){
         try {
-            connectionSource= new JdbcConnectionSource(JDBC_DRIVER_HD,User,password);
+            connectionSource= new JdbcConnectionSource(JDBC_DRIVER_HD);
         }catch (SQLException e ){
             LOGGER.warn(e.getMessage());
         }

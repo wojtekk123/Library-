@@ -25,6 +25,8 @@ import java.util.List;
  */
 public abstract class CommonDao {
 
+
+
     private static final Logger LOGGER = LoggerFactory.getLogger(CommonDao.class);
     protected final ConnectionSource connectionSource;
 
@@ -120,7 +122,7 @@ public abstract class CommonDao {
             return DaoManager.createDao(connectionSource, cls);
         } catch (SQLException e) {
             LOGGER.warn(e.getCause().getMessage());
-            throw new AplicationException(fxmlUties.getResource().getString("error.not.found.all"));
+            throw new AplicationException(fxmlUties.getResource().getString("error.get.dao"));
 
         } finally {
             this.closeDbConnection();
