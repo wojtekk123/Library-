@@ -22,7 +22,7 @@ import java.util.ResourceBundle;
 /**
  * Created by wojtek on 31.01.2019.
  */
-public class MainController implements Initializable {
+public class MainController  {
 
     @FXML
     public BorderPane borderPane;
@@ -36,7 +36,7 @@ public class MainController implements Initializable {
         }
 
 
-    public void initialize(URL location, ResourceBundle resources) {
+    public void initialize() {
             topMenuButtonController.setMainController(this);
     }
 

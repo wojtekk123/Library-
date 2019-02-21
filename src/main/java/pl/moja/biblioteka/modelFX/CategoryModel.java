@@ -30,23 +30,21 @@ private TreeItem<String> root = new TreeItem<>();
 
 
     public void updateCategoryInDataBase () throws AplicationException{
-        CategoryDao categoryDao = new CategoryDao( (DBMenager.getConnectionSource()));
+        CategoryDao categoryDao = new CategoryDao();
         Category tempCategory = categoryDao.findById(Category.class, getCategory().getId());
         tempCategory.setName(getCategory().getName());
         categoryDao.creatOrUpdate(tempCategory);
-        DBMenager.closeConnectionSource();
         init();
     }
 
 
     public void init  () throws AplicationException {
 
-    CategoryDao categoryDao = new CategoryDao( (DBMenager.getConnectionSource()));
+    CategoryDao categoryDao = new CategoryDao( );
     List<Category> categories = categoryDao.queryForAll(Category.class);
     initCategoryList(categories);
     initRoot (categories);
 
-    DBMenager.closeConnectionSource();
 
     }
 
@@ -75,9 +73,8 @@ private TreeItem<String> root = new TreeItem<>();
 
     public void deleteCategory () throws AplicationException {
 
-        CategoryDao categoryDao = new CategoryDao( (DBMenager.getConnectionSource()));
+        CategoryDao categoryDao = new CategoryDao( );
         categoryDao.deleteById(Category.class,category.getValue().getId());
-        DBMenager.closeConnectionSource();
         init();
 
     }
@@ -85,11 +82,10 @@ private TreeItem<String> root = new TreeItem<>();
 // model obsluguje zapis do bazy danych, stworzenie kategori i zapisanie jej
     public  void saveCategoryInDatabase (String name) throws AplicationException{
 
-        CategoryDao categoryDao = new CategoryDao(DBMenager.getConnectionSource());
+        CategoryDao categoryDao = new CategoryDao();
         Category category = new Category() ;
         category.setName(name);
         categoryDao.creatOrUpdate(category);
-        DBMenager.closeConnectionSource();
        init();
 
     }

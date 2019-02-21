@@ -40,6 +40,9 @@ public class Book implements BaseModel {
     @DatabaseField (columnName =  "Data_Add")
     private Date dataAdd;
 
+    @DatabaseField (columnName= "Description")
+    private String description;
+
     public int getId() {
         return id;
     }
@@ -102,5 +105,13 @@ public class Book implements BaseModel {
 
     public void setDataAdd(Date dataAdd) {
         this.dataAdd = dataAdd;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 }

@@ -36,12 +36,11 @@ public class FileDatabase {
 
         Category category2 = new Category();
         category2.setName("Semsacja");
-        CategoryDao categoryDao = new CategoryDao(DBMenager.getConnectionSource());
+        CategoryDao categoryDao = new CategoryDao();
         try {
             categoryDao.creatOrUpdate(category2);
-            DBMenager.closeConnectionSource();
         } catch (AplicationException e) {
-            e.printStackTrace();
+            DialogUtils.errorDialog(e.getMessage());
         }
 
 
@@ -72,19 +71,19 @@ public class FileDatabase {
         book3.setIsbn("31241");
         book3.setRanking(1);
         book3.setRealseData(new Date());
+        book3.setDescription(" very interesting book");
 
 
-        BookDao bookDao= new BookDao(DBMenager.getConnectionSource());
+        BookDao bookDao= new BookDao();
         try {
          bookDao.creatOrUpdate(book1);
          bookDao.creatOrUpdate(book2);
          bookDao.creatOrUpdate(book3);
 
         } catch (AplicationException e) {
-            e.printStackTrace();
+            DialogUtils.errorDialog(e.getMessage());
         }
 
-        DBMenager.closeConnectionSource();
 
 
 

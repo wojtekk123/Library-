@@ -8,7 +8,7 @@ import com.j256.ormlite.support.ConnectionSource;
 public class BookDao extends CommonDao {
 
 
-   public BookDao (ConnectionSource connectionSource) {
+   public BookDao () {
    super();
    }
 
