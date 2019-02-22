@@ -12,9 +12,8 @@ public class BookFX {
 
 
     private IntegerProperty id = new SimpleIntegerProperty();
-    private  StringProperty authorFX1 = new SimpleStringProperty();
-    private SimpleObjectProperty<CategoryFx> authorFX = new SimpleObjectProperty();
-    private ObjectProperty<AuthorFX> categoryFX = new SimpleObjectProperty();
+    private SimpleObjectProperty<AuthorFX> authorFX = new SimpleObjectProperty();
+    private ObjectProperty<CategoryFx> categoryFX = new SimpleObjectProperty();
     private SimpleStringProperty title = new SimpleStringProperty();
     private SimpleStringProperty discription = new SimpleStringProperty();
     private StringProperty isbn = new SimpleStringProperty();
@@ -35,29 +34,6 @@ public class BookFX {
         this.id.set(id);
     }
 
-    public CategoryFx getAuthorFX() {
-        return authorFX.get();
-    }
-
-    public ObjectProperty<CategoryFx> authorFXProperty() {
-        return authorFX;
-    }
-
-    public void setAuthorFX(CategoryFx authorFX) {
-        this.authorFX.set(authorFX);
-    }
-
-    public AuthorFX getCategoryFX() {
-        return categoryFX.get();
-    }
-
-    public ObjectProperty<AuthorFX> categoryFXProperty() {
-        return categoryFX;
-    }
-
-    public void setCategoryFX(AuthorFX categoryFX) {
-        this.categoryFX.set(categoryFX);
-    }
 
     public String getTitle() {
         return title.get();
@@ -131,24 +107,34 @@ public class BookFX {
         this.releseData.set(releseData);
     }
 
-    public String getAuthorFX1() {
-        return authorFX1.get();
+    public AuthorFX getAuthorFX() {
+        return authorFX.get();
     }
 
-    public StringProperty authorFX1Property() {
-        return authorFX1;
+    public SimpleObjectProperty<AuthorFX> authorFXProperty() {
+        return authorFX;
     }
 
-    public void setAuthorFX1(String authorFX1) {
-        this.authorFX1.set(authorFX1);
+    public void setAuthorFX(AuthorFX authorFX) {
+        this.authorFX.set(authorFX);
     }
 
+    public CategoryFx getCategoryFX() {
+        return categoryFX.get();
+    }
+
+    public ObjectProperty<CategoryFx> categoryFXProperty() {
+        return categoryFX;
+    }
+
+    public void setCategoryFX(CategoryFx categoryFX) {
+        this.categoryFX.set(categoryFX);
+    }
 
     @Override
     public String toString() {
         return "BookFX{" +
                 "id=" + id +
-                ", authorFX1=" + authorFX1 +
                 ", authorFX=" + authorFX +
                 ", categoryFX=" + categoryFX +
                 ", title=" + title +

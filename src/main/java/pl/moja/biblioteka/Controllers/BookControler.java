@@ -1,5 +1,6 @@
 package pl.moja.biblioteka.Controllers;
 
+import javafx.beans.value.ObservableValue;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
@@ -15,7 +16,7 @@ import pl.moja.biblioteka.uties.exception.AplicationException;
 public class BookControler {
 
     @FXML
-    private ComboBox<CategoryFx> CategoryComboBox;
+    private ComboBox <CategoryFx> CategoryComboBox;
     @FXML
     private ComboBox <AuthorFX> AuthorComboBox;
     @FXML
@@ -50,10 +51,8 @@ public class BookControler {
     private void BookBinding() {
         this.CategoryComboBox.setItems(this.bookModel.getCategoryObservableList());
         this.AuthorComboBox.setItems(this.bookModel.getAuthorFXObservableList());
-
-
-        //  this.bookModel.getBookFXObjectProperty().categoryFXProperty().bind(this.CategoryComboBox.valueProperty());
-
+        this.bookModel.getBookFXObjectProperty().authorFXProperty().bind(this.AuthorComboBox.valueProperty());
+        this.bookModel.getBookFXObjectProperty().categoryFXProperty().bind(this.CategoryComboBox.valueProperty());
         this.bookModel.getBookFXObjectProperty().titleProperty().bind(this.TiitleTextField.textProperty());
         this.bookModel.getBookFXObjectProperty().discriptionProperty().bind(this.DescriptionTextArea.textProperty());
         this.bookModel.getBookFXObjectProperty().ratingProperty().bind(this.RankingSlider.valueProperty());

@@ -13,4 +13,10 @@ public class Uties {
         return Date.from(localDate.atStartOfDay(ZoneId.systemDefault()).toInstant());
     }
 
+    public static LocalDate covereterToLocalData (Date date){
+
+        return date.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
+    }
+
+
 }
