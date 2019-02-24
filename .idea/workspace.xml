@@ -2,26 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b54776ff-bf6c-46e4-8b42-348f9696bb5d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/Controllers/ListBookController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/modelFX/ListBookModel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pl/moja/biblioteka/Controllers/BookControler.class" afterPath="$PROJECT_DIR$/target/classes/pl/moja/biblioteka/Controllers/BookControler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pl/moja/biblioteka/modelFX/BookFX.class" afterPath="$PROJECT_DIR$/target/classes/pl/moja/biblioteka/modelFX/BookFX.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pl/moja/biblioteka/modelFX/BookModel.class" afterPath="$PROJECT_DIR$/target/classes/pl/moja/biblioteka/modelFX/BookModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pl/moja/biblioteka/uties/convertes/ConverterBook.class" afterPath="$PROJECT_DIR$/target/classes/pl/moja/biblioteka/uties/convertes/ConverterBook.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pl/moja/biblioteka/uties/exception/Uties.class" afterPath="$PROJECT_DIR$/target/classes/pl/moja/biblioteka/uties/exception/Uties.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pl/moja/biblioteka/Controllers/ListBookController.class" afterPath="$PROJECT_DIR$/target/classes/pl/moja/biblioteka/Controllers/ListBookController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pl/moja/biblioteka/modelFX/ListBookModel.class" afterPath="$PROJECT_DIR$/target/classes/pl/moja/biblioteka/modelFX/ListBookModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pl/moja/biblioteka/uties/fxmlUties.class" afterPath="$PROJECT_DIR$/target/classes/pl/moja/biblioteka/uties/fxmlUties.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bazaKsiazek.db" afterPath="$PROJECT_DIR$/bazaKsiazek.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/Controllers/AuthorControler.java" afterPath="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/Controllers/AuthorControler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/Controllers/BookControler.java" afterPath="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/Controllers/BookControler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/modelFX/BookFX.java" afterPath="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/modelFX/BookFX.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/uties/convertes/ConverterBook.java" afterPath="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/uties/convertes/ConverterBook.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/uties/convertes/ConverterCategory.java" afterPath="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/uties/convertes/ConverterCategory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/uties/exception/Uties.java" afterPath="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/uties/exception/Uties.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/Controllers/CategoryController.java" afterPath="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/Controllers/CategoryController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/Controllers/ListBookController.java" afterPath="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/Controllers/ListBookController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/database/dao/BookDao.java" afterPath="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/database/dao/BookDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/database/models/Author.java" afterPath="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/database/models/Author.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/database/models/Book.java" afterPath="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/database/models/Book.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/modelFX/AuthorModel.java" afterPath="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/modelFX/AuthorModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/modelFX/CategoryModel.java" afterPath="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/modelFX/CategoryModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/modelFX/ListBookModel.java" afterPath="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/modelFX/ListBookModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/uties/fxmlUties.java" afterPath="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/uties/fxmlUties.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/bundles/message.properties" afterPath="$PROJECT_DIR$/src/main/resources/bundles/message.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/bundles/message_pl.properties" afterPath="$PROJECT_DIR$/src/main/resources/bundles/message_pl.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/fxml/AddBook.fxml" afterPath="$PROJECT_DIR$/src/main/resources/fxml/AddBook.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/fxml/ListBook.fxml" afterPath="$PROJECT_DIR$/src/main/resources/fxml/ListBook.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/fxml/TopMenuButton.fxml" afterPath="$PROJECT_DIR$/src/main/resources/fxml/TopMenuButton.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/bundles/message.properties" afterPath="$PROJECT_DIR$/target/classes/bundles/message.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/bundles/message_pl.properties" afterPath="$PROJECT_DIR$/target/classes/bundles/message_pl.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/fxml/AddBook.fxml" afterPath="$PROJECT_DIR$/target/classes/fxml/AddBook.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/fxml/ListBook.fxml" afterPath="$PROJECT_DIR$/target/classes/fxml/ListBook.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/fxml/TopMenuButton.fxml" afterPath="$PROJECT_DIR$/target/classes/fxml/TopMenuButton.fxml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,82 +42,40 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6411083">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="ListBookController.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/Controllers/ListBookController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="563">
-                  <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ListBook.fxml" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/ListBook.fxml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="307">
-                  <caret line="23" column="59" lean-forward="false" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
-                  <folding />
-                </state>
-              </provider>
-              <provider editor-type-id="JavaFX-Scene-Builder">
-                <state />
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="BookControler.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/Controllers/BookControler.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="291">
-                  <caret line="56" column="47" lean-forward="false" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="47" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ListBookModel.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/modelFX/ListBookModel.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-85">
-                  <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#1595#1603#0" expanded="true" />
-                    <element signature="e#4813#4814#0" expanded="true" />
-                    <element signature="e#4864#4865#0" expanded="true" />
-                    <element signature="e#4936#4937#0" expanded="true" />
-                    <element signature="e#4981#4982#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="CategoryController.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/Controllers/CategoryController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="512">
-                  <caret line="85" column="38" lean-forward="false" selection-start-line="85" selection-start-column="38" selection-end-line="85" selection-end-column="38" />
-                  <folding>
-                    <element signature="method#AddCategoryAction#0;class#CategoryController#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="AuthorModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/modelFX/AuthorModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="32" column="94" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="32" selection-end-column="94" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CategoryModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/modelFX/CategoryModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="82" column="84" lean-forward="false" selection-start-line="82" selection-start-column="84" selection-end-line="82" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CategoryController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/Controllers/CategoryController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="986">
+              <caret line="79" column="51" lean-forward="false" selection-start-line="79" selection-start-column="51" selection-end-line="79" selection-end-column="51" />
+              <folding>
+                <element signature="method#AddCategoryAction#0;class#CategoryController#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -144,7 +107,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/resources/fxml/BorderPanelMain.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/Dialogs/DialogUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/uties/fxmlUties.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/database/ew.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/database/dao/CategoryDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/database/dao/Looger.java" />
@@ -163,35 +125,36 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/Controllers/TopMenuButtonController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/AddAuthor.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/database/dao/CommonDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/Controllers/CategoryController.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/uties/convertes/ConverterAuthor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/database/models/Author.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/Controllers/MainController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/database/models/Book.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/modelFX/bookFX.java" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/AddBook.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/database/models/BookModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/modelFX/CategoryFx.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/Controllers/AuthorControler.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/modelFX/AuthorFX.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/database/dao/AuthorDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/database/dao/CategoryDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/database/dao/BookDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/modelFX/CategoryModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/modelFX/AuthorModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/uties/FileDatabase.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/modelFX/BookModel.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/bundles/message.properties" />
         <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/uties/exception/Uties.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/Controllers/BookControler.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/uties/convertes/ConverterBook.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/modelFX/BookFX.java" />
         <option value="$PROJECT_DIR$/src/main/resources/bundles/message_pl.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/ListBook.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/uties/convertes/ConverterCategory.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/modelFX/BookFxList.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/bundles/message.properties" />
         <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/modelFX/ListBookModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/uties/fxmlUties.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/Controllers/ListBookController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/Controllers/BookControler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/database/dao/BookDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/Controllers/AuthorControler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/database/models/Author.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/database/models/Book.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/modelFX/AuthorModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/modelFX/CategoryModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/Controllers/CategoryController.java" />
       </list>
     </option>
   </component>
@@ -382,32 +345,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bundles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MojaBiblioteka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MojaBiblioteka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -477,40 +414,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="exception" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MojaBiblioteka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MojaBiblioteka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="biblioteka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uties" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="convertes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1012,15 +915,14 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14072494" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28884026" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21235102" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14301191" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0065005417" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.141258" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28060672" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14605543" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1032,6 +934,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28060672" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -1039,7 +942,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="23" />
+      <option name="time" value="24" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1060,42 +963,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MojaBiblioteka.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="38" lean-forward="true" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/database/dao/Looger.java" />
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/uties/exception/AplicationException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="901">
@@ -1111,28 +978,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/TopMenuButton.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="58" column="74" lean-forward="false" selection-start-line="58" selection-start-column="70" selection-end-line="58" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/BorderPanelMain.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Throwable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10200">
@@ -1140,80 +985,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/AddAuthor.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/javafx-src.zip!/javafx/util/Callback.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="51" column="13" lean-forward="false" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/database/dbUtis/DBMenager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/AddCategory.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/database/models/BaseModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/database/models/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="45" column="47" lean-forward="false" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
-          <folding>
-            <element signature="e#1001#1002#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/AddBook.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="68" column="3" lean-forward="false" selection-start-line="68" selection-start-column="3" selection-end-line="68" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/database/models/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="712">
-          <caret line="109" column="34" lean-forward="false" selection-start-line="109" selection-start-column="34" selection-end-line="109" selection-end-column="34" />
-          <folding>
-            <element signature="e#2355#2356#0" expanded="false" />
-            <element signature="e#2389#2390#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1225,25 +1000,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/database/dao/BookDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="e#201#202#0" expanded="false" />
-            <element signature="e#218#219#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/database/dao/CategoryDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <element signature="e#210#211#0" expanded="false" />
-            <element signature="e#233#234#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1258,49 +1018,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/Statistic.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/uties/exception/Uties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="77" lean-forward="false" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/database/models/Author.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/uties/DialogUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="57" column="16" lean-forward="false" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/uties/FileDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -1309,18 +1026,286 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/modelFX/AuthorModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-381">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/modelFX/AuthorFX.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/uties/convertes/ConverterBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/uties/convertes/ConverterCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/modelFX/BookFxList.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bundles/message_pl.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bundles/message.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/icons/library_icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/icons/list_icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/icons/statistic_icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/icons/delete_icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/Controllers/TopMenuButtonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/database/dbUtis/DBMenager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/javafx-src.zip!/com/sun/javafx/event/CompositeEventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/Controllers/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="70" column="5" lean-forward="false" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#MainController#0" expanded="false" />
+            <element signature="e#953#954#0" expanded="false" />
+            <element signature="e#1020#1021#0" expanded="false" />
+            <element signature="e#1271#1272#0" expanded="false" />
+            <element signature="e#1353#1354#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/uties/exception/AplicationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/uties/exception/Uties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="77" lean-forward="false" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/uties/DialogUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="57" column="16" lean-forward="false" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/uties/fxmlUties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/Controllers/ListBookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="140" column="48" lean-forward="false" selection-start-line="140" selection-start-column="48" selection-end-line="140" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/AddBook.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="68" column="25" lean-forward="false" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/TopMenuButton.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/Statistic.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/ListBook.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="23" column="59" lean-forward="false" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/Library.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/BorderPanelMain.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/AddCategory.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/AddAuthor.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/database/models/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="45" column="47" lean-forward="false" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+          <folding>
+            <element signature="e#1001#1002#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/Controllers/AuthorControler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1281">
+          <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/Controllers/BookControler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-980">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/modelFX/ListBookModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="43" column="27" lean-forward="false" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1330,8 +1315,45 @@
         <state relative-caret-position="170">
           <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding>
-            <element signature="e#205#206#0" expanded="false" />
-            <element signature="e#222#223#0" expanded="false" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/database/dao/BookDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/database/models/Author.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/database/models/BaseModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/database/models/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="e#2460#2461#0" expanded="true" />
+            <element signature="e#2494#2495#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1344,182 +1366,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/uties/convertes/ConverterBook.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/modelFX/BookModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="245">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/bundles/message_pl.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="62" column="18" lean-forward="false" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/bundles/message.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="60" column="3" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/Library.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/modelFX/CategoryModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding>
-            <element signature="method#updateCategoryInDataBase#0;class#CategoryModel#0" expanded="false" />
-            <element signature="method#init#0;class#CategoryModel#0" expanded="false" />
-            <element signature="method#initRoot#0;class#CategoryModel#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/modelFX/BookFX.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="187">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#toString#0;class#BookFX#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/modelFX/BookModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="48" column="0" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="48" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/uties/convertes/ConverterCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/Controllers/MainController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/modelFX/AuthorModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
-          <folding>
-            <element signature="docComment;class#MainController#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="32" column="94" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="32" selection-end-column="94" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/uties/fxmlUties.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/modelFX/CategoryModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="33" column="40" lean-forward="false" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="40" />
+        <state relative-caret-position="408">
+          <caret line="82" column="84" lean-forward="false" selection-start-line="82" selection-start-column="84" selection-end-line="82" selection-end-column="84" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/Controllers/CategoryController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="85" column="38" lean-forward="false" selection-start-line="85" selection-start-column="38" selection-end-line="85" selection-end-column="38" />
+        <state relative-caret-position="986">
+          <caret line="79" column="51" lean-forward="false" selection-start-line="79" selection-start-column="51" selection-end-line="79" selection-end-column="51" />
           <folding>
             <element signature="method#AddCategoryAction#0;class#CategoryController#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/Controllers/AuthorControler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="69" column="47" lean-forward="true" selection-start-line="69" selection-start-column="47" selection-end-line="69" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/Controllers/TopMenuButtonController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/modelFX/BookFxList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/Controllers/BookControler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="56" column="47" lean-forward="false" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/modelFX/ListBookModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1595#1603#0" expanded="true" />
-            <element signature="e#4813#4814#0" expanded="true" />
-            <element signature="e#4864#4865#0" expanded="true" />
-            <element signature="e#4936#4937#0" expanded="true" />
-            <element signature="e#4981#4982#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/ListBook.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="23" column="59" lean-forward="false" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/moja/biblioteka/Controllers/ListBookController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -41,6 +41,7 @@ public class ListBookModel {
 
         BookDao bookDao = new BookDao();
         List<Book> books = bookDao.queryForAll(Book.class);
+        BookFxList.clear();
         books.forEach(book -> {
 
             this.BookFxList.add(ConverterBook.converterToBookFx(book));
@@ -53,13 +54,6 @@ public class ListBookModel {
 
     }
 
-
-    public void delete (){
-
-        this.bookFXObservableList.setAll(BookFxList);
-
-
-    }
 
     public void filterBookList (){
         if (getAuthorFXObjectProperty()!=null && getCategoryFxObjectProperty()!=null){
@@ -173,4 +167,13 @@ public class ListBookModel {
     public void setCategoryFxObjectProperty(CategoryFx categoryFxObjectProperty) {
         this.categoryFxObjectProperty.set(categoryFxObjectProperty);
     }
+
+    public void deleteBook (BookFX bookFX) throws AplicationException {
+
+        BookDao bookDao = new BookDao();
+        bookDao.deleteById(Book.class, bookFX.getId());
+        init();
+
+    }
+
 }

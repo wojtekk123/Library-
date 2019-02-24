@@ -6,12 +6,15 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.scene.control.TreeItem;
 import org.sqlite.core.DB;
+import pl.moja.biblioteka.database.dao.BookDao;
 import pl.moja.biblioteka.database.dao.CategoryDao;
 import pl.moja.biblioteka.database.dbUtis.DBMenager;
+import pl.moja.biblioteka.database.models.Book;
 import pl.moja.biblioteka.database.models.Category;
 import pl.moja.biblioteka.uties.convertes.ConverterCategory;
 import pl.moja.biblioteka.uties.exception.AplicationException;
 
+import java.sql.SQLException;
 import java.util.List;
 import java.util.Observable;
 
@@ -71,10 +74,13 @@ private TreeItem<String> root = new TreeItem<>();
         });
     }
 
-    public void deleteCategory () throws AplicationException {
+    public void deleteCategory () throws AplicationException, SQLException {
 
         CategoryDao categoryDao = new CategoryDao( );
         categoryDao.deleteById(Category.class,category.getValue().getId());
+
+        BookDao bookDao = new BookDao();
+        bookDao.deletebyColumnName(Book.CATEGORY_ID,this.category.getValue().getId() );
         init();
 
     }

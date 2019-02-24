@@ -26,6 +26,15 @@ public class fxmlUties {
         }return null;
 
     }
+    public static FXMLLoader getLoader (String patch) {
+
+
+        FXMLLoader loader = new FXMLLoader(fxmlUties.class.getResource(patch));
+        loader.setResources(getResource());
+
+     return loader;
+
+    }
 
 
 

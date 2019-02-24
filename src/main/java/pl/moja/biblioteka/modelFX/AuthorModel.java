@@ -5,11 +5,14 @@ import javafx.beans.property.SimpleObjectProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import pl.moja.biblioteka.database.dao.AuthorDao;
+import pl.moja.biblioteka.database.dao.BookDao;
 import pl.moja.biblioteka.database.dbUtis.DBMenager;
 import pl.moja.biblioteka.database.models.Author;
+import pl.moja.biblioteka.database.models.Book;
 import pl.moja.biblioteka.uties.convertes.ConverterAuthor;
 import pl.moja.biblioteka.uties.exception.AplicationException;
 
+import java.sql.SQLException;
 import java.util.List;
 
 /**
@@ -22,10 +25,12 @@ public class AuthorModel {
     private ObservableList<AuthorFX> authorFXObservableList = FXCollections.observableArrayList();
 
 
-    public void deleteAuthorInDatabase () throws AplicationException {
+    public void deleteAuthorInDatabase () throws AplicationException, SQLException {
 
         AuthorDao authorDao = new AuthorDao();
         authorDao.deleteById(Author.class, this.getAuthorFXObjectPropertyEdit().getId());
+        BookDao bookDao = new BookDao();
+        bookDao.deletebyColumnName(Book.AUTHOR,this.getAuthorFXObjectPropertyEdit().getId() );
         this.init();
     }
 

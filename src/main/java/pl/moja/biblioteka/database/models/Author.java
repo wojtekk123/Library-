@@ -9,7 +9,7 @@ import com.j256.ormlite.table.DatabaseTable;
  * Created by wojtek on 04.02.2019.
  */
 
-@DatabaseTable (tableName = "TABLE")
+@DatabaseTable (tableName = "AUTHOR")
 public class Author implements BaseModel {
 
     public Author () {

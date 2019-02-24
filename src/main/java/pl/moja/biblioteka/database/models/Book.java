@@ -12,6 +12,9 @@ import java.util.Date;
 @DatabaseTable (tableName = "BOOKS")
 public class Book implements BaseModel {
 
+    public static final String AUTHOR = "Author";
+    public static final String CATEGORY_ID = "Category_ID";
+
     public Book () {
 
     }
@@ -19,10 +22,10 @@ public class Book implements BaseModel {
     @DatabaseField (generatedId =  true)
     private int id;
 
-    @DatabaseField (columnName =  "Author", foreign = true, foreignAutoRefresh = true,foreignAutoCreate = true,canBeNull = false)
+    @DatabaseField (columnName = AUTHOR, foreign = true, foreignAutoRefresh = true,foreignAutoCreate = true,canBeNull = false)
     private Author author;
 
-    @DatabaseField (columnName =  "Category_ID", foreign = true,foreignAutoRefresh = true,foreignAutoCreate = true,canBeNull = false)
+    @DatabaseField (columnName = CATEGORY_ID, foreign = true,foreignAutoRefresh = true,foreignAutoCreate = true,canBeNull = false)
     private Category category;
 
     @DatabaseField (columnName =  "Title", canBeNull = false)

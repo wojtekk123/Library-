@@ -11,6 +11,8 @@ import pl.moja.biblioteka.modelFX.CategoryModel;
 import pl.moja.biblioteka.uties.DialogUtils;
 import pl.moja.biblioteka.uties.exception.AplicationException;
 
+import java.sql.SQLException;
+
 /**
  * Created by wojtek on 11.02.2019.
  */
@@ -75,7 +77,7 @@ public class CategoryController {
 
         try {
             this.categoryModel.deleteCategory();
-        } catch (AplicationException e) {
+        } catch (AplicationException | SQLException e) {
             DialogUtils.errorDialog(e.getMessage());
         }
 

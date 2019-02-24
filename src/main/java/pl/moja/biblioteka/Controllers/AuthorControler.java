@@ -10,6 +10,8 @@ import pl.moja.biblioteka.modelFX.AuthorModel;
 import pl.moja.biblioteka.uties.DialogUtils;
 import pl.moja.biblioteka.uties.exception.AplicationException;
 
+import java.sql.SQLException;
+
 
 /**
  * Created by wojtek on 15.02.2019.
@@ -103,14 +105,13 @@ public class AuthorControler {
     }
 
     public void deleteOnAction() {
+
         try {
             this.authorModel.deleteAuthorInDatabase();
-        } catch (AplicationException e) {
+        } catch (AplicationException | SQLException e) {
             DialogUtils.errorDialog(e.getMessage());
+
         }
+
     }
-
-
-
-
 }
